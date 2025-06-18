@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Vat Calculator</title>
+<head>
+    <title>VAT Calculator</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="cal.js"></script>
+</head>
+
+<body>
+    <h1>VAT Calculator</h1>
+    <input type="number" id="basePrice" placeholder="Enter base price" />
+    <button onclick="calculate()">Calculate</button>
+    <br><br>
+    <input type="number" id="totalPrice" placeholder="Enter total price (with VAT)" />
+    <button onclick="Reverse_Calculate()">Reverse Calculate</button>
+    <div id="result"></div>
+</body>
+</html>
